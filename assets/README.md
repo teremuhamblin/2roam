@@ -28,24 +28,19 @@
 ### 🧰 Bonnes pratiques
 - Utiliser des noms explicites :  
 `logo_2roam_primary.png`, `hud_icon_node.svg`,     `schema_architecture_v1.png`
-
 - Organiser les fichiers par type dans les sous‑dossiers.
-
 - Optimiser les images avant intégration (TinyPNG, Squoosh, etc.).
-
 - Versionner les visuels importants (ex : `logo_v1`, `logo_v2`).
 
 ---
 
-## 🛠️ Script de génération d’images
-
-Un script Bash est fourni dans ce dossier :  
+### 🛠️ Script de génération d’images
+>Un script Bash est fourni dans ce dossier :  
 `create_image.sh`  
-Il permet de générer automatiquement une image + un prompt pour Copilot Pro.
+- Il permet de générer automatiquement une image + un prompt pour Copilot Pro.
 
 ---
 
-## 📜 Licence
-
+### 📜 Licence
 Les fichiers contenus dans ce dossier sont soumis à la licence du projet **2roam**.  
 Voir le fichier `LICENSE` à la racine du dépôt.
