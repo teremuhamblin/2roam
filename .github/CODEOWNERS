@@ -1,0 +1,91 @@
+# ============================================================
+#  🚀 CODEOWNERS — Projet 2roam
+#  Architecture : Cyber‑Physique • Navigation Libre • Exploration
+#  Maintainer Principal : @teremuhamblin
+# ============================================================
+
+# 👑 Propriétaire global du projet
+*                               @teremuhamblin
+
+
+# ============================================================
+#  📚 Documentation & Communication
+# ============================================================
+/README.md                      @teremuhamblin
+/docs/                          @teremuhamblin
+/CHANGELOG.md                   @teremuhamblin
+/ROADMAP.md                     @teremuhamblin
+/CONTRIBUTING.md                @teremuhamblin
+/CODE_OF_CONDUCT.md             @teremuhamblin
+/SECURITY.md                    @teremuhamblin
+
+
+# ============================================================
+#  🎨 Identité Visuelle & Assets
+# ============================================================
+/assets/                        @teremuhamblin
+/assets/logo/                   @teremuhamblin
+/assets/icons/                  @teremuhamblin
+/assets/badges/                 @teremuhamblin
+/design/                        @teremuhamblin
+
+
+# ============================================================
+#  🧠 Core — Noyau du système 2roam
+# ============================================================
+/core/                          @teremuhamblin
+/src/core/                      @teremuhamblin
+/src/utils/                     @teremuhamblin
+/src/config/                    @teremuhamblin
+
+
+# ============================================================
+#  🛰️ Navigation & Moteurs Cyber‑Physiques
+# ============================================================
+/navigation/                    @teremuhamblin
+/src/navigation/                @teremuhamblin
+/src/engine/                    @teremuhamblin
+/src/simulation/                @teremuhamblin
+
+
+# ============================================================
+#  🌐 Frontend / Interface 2roam
+# ============================================================
+/frontend/                      @teremuhamblin
+/src/ui/                        @teremuhamblin
+/src/components/                @teremuhamblin
+/src/pages/                     @teremuhamblin
+/public/                        @teremuhamblin
+
+
+# ============================================================
+#  🔧 Backend / API / Services
+# ============================================================
+/backend/                       @teremuhamblin
+/api/                           @teremuhamblin
+/src/api/                       @teremuhamblin
+/server/                        @teremuhamblin
+
+
+# ============================================================
+#  🧪 Tests & Qualité
+# ============================================================
+/tests/                         @teremuhamblin
+/test/                          @teremuhamblin
+/__tests__/                     @teremuhamblin
+
+
+# ============================================================
+#  ⚙️ DevOps / CI / Configurations
+# ============================================================
+/.github/                       @teremuhamblin
+/.devcontainer/                 @teremuhamblin
+/.vscode/                       @teremuhamblin
+/config/                        @teremuhamblin
+
+
+# ============================================================
+#  🧬 Zones Expérimentales
+# ============================================================
+/experiments/                   @teremuhamblin
+/labs/                          @teremuhamblin
