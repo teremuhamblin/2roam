@@ -42,10 +42,10 @@
 # ============================================================
 #  🛰️ Navigation & Moteurs Cyber‑Physiques
 # ============================================================
-/navigation/                    @teremuhamblin
-/src/navigation/                @teremuhamblin
-/src/engine/                    @teremuhamblin
-/src/simulation/                @teremuhamblin
+/navigation/                    @armeedeterre
+/src/navigation/                @armeedeterre
+/src/engine/                    @armeedeterre
+/src/simulation/                @armeedeterre
 
 
 # ============================================================
