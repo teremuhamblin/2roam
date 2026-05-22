@@ -98,10 +98,7 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 
 📜 Licence
 © 2026 GPL3.0 - The MadDoG.tmdg
-
-```text
 ##### Version française stylisée inspirée du concept “GitHub Roam Guide”.  
 ###### Distribuée sous licence GPL-3.0
-```
 
 ---
