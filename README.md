@@ -1,4 +1,5 @@
 # 🇫🇷 Guide général
+[![CI](https://github.com/teremuhamblin/2roam/actions/workflows/blank.yml/badge.svg)](https://github.com/teremuhamblin/2roam/actions/workflows/blank.yml)
 ## Roaming GitHub
 ![Navigation](https://img.shields.io/badge/Navigation-Real_Time-blueviolet?style=for-the-badge&logo=googlemaps)
 ![Sensors](https://img.shields.io/badge/Sensors-LIDAR%20%7C%20IMU%20%7C%20GPS-red?style=for-the-badge&logo=sensor)
