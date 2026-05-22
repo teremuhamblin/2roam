@@ -22,7 +22,7 @@
 
 ---
 
-### 🧭 1. Explorer les dépôts comme des paysages
+### 🧭 **1. Explorer les dépôts comme des paysages**
 >Chaque dépôt GitHub est un lieu
 - Le README.md est l’enseigne du lieu  
 - Les dossiers sont les chemins  
@@ -30,7 +30,7 @@
 - Les pull requests sont les portes d’entrée pour contribuer  
 - Les releases sont les versions historiques du lieu
 
-### 🔍 2. Utiliser la recherche
+### 🔍 **2. Utiliser la recherche**
 >GitHub propose une recherche extrêmement puissante :
 - par langage  
 - par popularité  
@@ -43,7 +43,7 @@ Tu peux littéralement trouver n’importe quel type de projet, du plus simple a
 
 ---
 
-### 🧑‍💻 3. Suivre les développeurs comme des explorateurs
+### 🧑‍💻 **3. Suivre les développeurs comme des explorateurs**
 >GitHub permet de :
 - suivre des utilisateurs  
 - suivre des organisations  
@@ -54,7 +54,7 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 
 ---
 
-### 🗺️ 4. Construire ton propre territoire
+### 🗺️ **4. Construire ton propre territoire**
 - Ton profil GitHub est ton pays numérique.
 >Tu peux y afficher :
 - tes projets  
@@ -63,7 +63,7 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 - ton identité visuelle  
 - ton GitHub Pages (ton site web personnel)
 
-### 🏗️ 5. GitHub Pages : ton refuge personnel
+### 🏗️ **5. GitHub Pages : ton refuge personnel**
 - GitHub Pages te permet de créer un site web gratuit, directement depuis un dépôt.
 >Idéal pour :
 - documenter un projet  
@@ -74,7 +74,7 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 
 ---
 
-### 📚 6. Ressources pour aller plus loin
+### 📚 **6. Ressources pour aller plus loin**
 - Documentation GitHub  
 - Guides officiels Git  
 - Projets open‑source populaires  
@@ -85,18 +85,13 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 
 ---
 
-# 📊 **3. Badges de statut & qualité**
-
-
-Pour montrer que ton projet est sérieux, structuré, maintenu :
-
-```md
+### 📊 **7. Badges de statut & qualité**
+>Pour montrer que ton projet est sérieux, structuré, maintenu :
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions)
 ![Version](https://img.shields.io/badge/Version-1.0.5-blue?style=for-the-badge)
 ![Stability](https://img.shields.io/badge/Stability-Alpha-orange?style=for-the-badge)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-success?style=for-the-badge&logo=github)
 ![Security](https://img.shields.io/badge/Security-Active_Review-critical?style=for-the-badge&logo=shield)
-```
 
 📜 Licence
 
