@@ -83,6 +83,21 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 
 ---
 
+---
+
+# 📊 **3. Badges de statut & qualité**
+
+
+Pour montrer que ton projet est sérieux, structuré, maintenu :
+
+```md
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions)
+![Version](https://img.shields.io/badge/Version-1.0.5-blue?style=for-the-badge)
+![Stability](https://img.shields.io/badge/Stability-Alpha-orange?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-success?style=for-the-badge&logo=github)
+![Security](https://img.shields.io/badge/Security-Active_Review-critical?style=for-the-badge&logo=shield)
+```
+
 📜 Licence
 
 © 2026 GPL3.0 - The MadDoG.tmdg
