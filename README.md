@@ -1,5 +1,10 @@
 # 🇫🇷 Guide général
 ## Roaming GitHub
+![Navigation](https://img.shields.io/badge/Navigation-Real_Time-blueviolet?style=for-the-badge&logo=googlemaps)
+![Sensors](https://img.shields.io/badge/Sensors-LIDAR%20%7C%20IMU%20%7C%20GPS-red?style=for-the-badge&logo=sensor)
+![Autonomy](https://img.shields.io/badge/Autonomy-Level_2-orange?style=for-the-badge&logo=robot)
+![CyberPhysique](https://img.shields.io/badge/Cyber_Physique-System_Ready-9cf?style=for-the-badge&logo=cloud)
+![Pathfinding](https://img.shields.io/badge/Pathfinding-A*_Optimized-yellow?style=for-the-badge&logo=graph)
 - « se promener librement ».
 - Lecture en ligne : Guide de Roaming GitHub  
 - Téléchargements : markdown
