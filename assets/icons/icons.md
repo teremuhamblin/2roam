@@ -1,0 +1,4 @@
+# icons/
+### Petites icônes, pictogrammes, symboles HUD/cyber‑physiques.
+
+
