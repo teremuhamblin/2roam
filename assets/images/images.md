@@ -1,0 +1,2 @@
+# images/
+### Contient les images du projet : logos, illustrations, schémas, visuels générés.
