@@ -1,0 +1,52 @@
+# .github/workflows/cd-deploy.yml
+name: 2roam v1.1 - Deploy
+
+on:
+  workflow_run:
+    workflows: [ "2roam v1.1 - Build" ]
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Environment to deploy"
+        required: true
+        default: "staging"
+        type: choice
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy:
+    name: Deploy ${{ github.event.inputs.environment || 'staging' }}
+    runs-on: ubuntu-latest
+
+    environment:
+      name: ${{ github.event.inputs.environment || 'staging' }}
+      url: ${{ steps.deploy.outputs.url }}
+
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download build artefacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./builds
+
+      - name: Deploy to ${{ github.event.inputs.environment || 'staging' }}
+        id: deploy
+        env:
+          ENVIRONMENT: ${{ github.event.inputs.environment || 'staging' }}
+          # Exemple de secrets:
+          # STAGING_API_URL, PROD_API_URL, SSH_KEY, etc.
+        run: |
+          echo "Deploying to ${ENVIRONMENT}"
+          # TODO: remplacer par ta vraie commande de déploiement
+          # ex: rsync / scp / kubectl / helm / terraform / ansible...
+          echo "url=https://2roam-${ENVIRONMENT}.example.com" >> "$GITHUB_OUTPUT"
