@@ -1,5 +1,5 @@
 # .github/workflows/ci-build.yml
-name: 2roam v1.1 - Build
+name: CI - Build
 
 on:
   push:
