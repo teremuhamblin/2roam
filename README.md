@@ -59,10 +59,8 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 - ton identité visuelle  
 - ton GitHub Pages (ton site web personnel)
 
-### 🏗️ **5. GitHub Pages : ton refuge personnel**
-![CI](https://github.com/teremuhamblin/2roam/actions/workflows/ci-test.yml/badge.svg)
-![Build](https://github.com/teremuhamblin/2roam/actions/workflows/ci-build.yml/badge.svg)
-![Deploy](https://github.com/<org>/<repository>/actions/workflows/cd-deploy.yml/badge.svg)
+### 🏗️ **5. GitHub Pages : ton refuge personnel
+[![CI - Check](https://github.com/teremuhamblin/2roam/actions/workflows/ci-check.yml/badge.svg)](https://github.com/teremuhamblin/2roam/actions/workflows/ci-check.yml)
 - GitHub Pages te permet de créer un site web gratuit, directement depuis un dépôt.
 >Idéal pour :
 - documenter un projet  
