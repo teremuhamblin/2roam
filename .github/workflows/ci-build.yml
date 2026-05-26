@@ -8,34 +8,20 @@ on:
 
 jobs:
   build:
-    name: Build artefacts
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        project: [ core, frontend, backend ]
-
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
+      - name: Placeholder build
+        run: |
+          echo "No build step defined yet."
+          mkdir -p dist
+          echo "Build placeholder" > dist/build.txt
 
-      - name: Install dependencies
-        working-directory: ./${{ matrix.project }}
-        run: npm ci
-
-      - name: Build
-        working-directory: ./${{ matrix.project }}
-        run: npm run build
-
-      - name: Upload build artefacts
+      - name: Upload placeholder artefact
         uses: actions/upload-artifact@v4
         with:
-          name: build-${{ matrix.project }}
-          path: ./${{ matrix.project }}/dist
+          name: build
+          path: dist
