@@ -19,7 +19,7 @@
 ---
 
 ### 🧭 **1. Explorer les dépôts comme des paysages**
->Chaque dépôt GitHub est un lieu
+>Chaque dépôt GitHub est un lieu :
 - Le README.md est l’enseigne du lieu  
 - Les dossiers sont les chemins  
 - Les issues sont les discussions du village  
@@ -76,8 +76,6 @@ Tu peux ainsi observer les pratiques, les styles de code, les workflows, les arc
 - Projets open‑source populaires  
 - Templates de documentation  
 - Workflows GitHub Actions  
-
----
 
 ---
 
