@@ -1,5 +1,5 @@
 # .github/workflows/ci-lint.yml
-name: 2roam v1.1 - Lint
+name: CI - Lint
 
 on:
   push:
