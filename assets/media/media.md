@@ -1,0 +1,2 @@
+# media/
+### Vidéos, animations, extraits audio, captures d’écran.
