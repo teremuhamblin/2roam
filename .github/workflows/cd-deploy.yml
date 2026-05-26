@@ -6,6 +6,7 @@ on:
     workflows: [ "2roam v1.1 - Build" ]
     types:
       - completed
+
   workflow_dispatch:
     inputs:
       environment:
@@ -19,11 +20,14 @@ on:
 
 jobs:
   deploy:
-    name: Deploy ${{ github.event.inputs.environment || 'staging' }}
     runs-on: ubuntu-latest
 
+    # Définition robuste de l'environnement
+    env:
+      ENVIRONMENT: ${{ github.event.inputs.environment || 'staging' }}
+
     environment:
-      name: ${{ github.event.inputs.environment || 'staging' }}
+      name: ${{ env.ENVIRONMENT }}
       url: ${{ steps.deploy.outputs.url }}
 
     permissions:
@@ -39,14 +43,9 @@ jobs:
         with:
           path: ./builds
 
-      - name: Deploy to ${{ github.event.inputs.environment || 'staging' }}
+      - name: Deploy to environment
         id: deploy
-        env:
-          ENVIRONMENT: ${{ github.event.inputs.environment || 'staging' }}
-          # Exemple de secrets:
-          # STAGING_API_URL, PROD_API_URL, SSH_KEY, etc.
         run: |
           echo "Deploying to ${ENVIRONMENT}"
-          # TODO: remplacer par ta vraie commande de déploiement
-          # ex: rsync / scp / kubectl / helm / terraform / ansible...
+          # Commande de déploiement réelle ici
           echo "url=https://2roam-${ENVIRONMENT}.example.com" >> "$GITHUB_OUTPUT"
